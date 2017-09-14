@@ -22,7 +22,7 @@ nav {
 header {
   background-color: #B2D6FF;
 }
-section {
+.signup {
   background-color: #D6E9FE;
 }
 .content {
@@ -38,9 +38,6 @@ section {
 .ft3{
   background-color: #C8C6FA;
 }
-.ft4{
-
-}
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   body {
@@ -53,11 +50,24 @@ section {
   body {
     background-color: #F5CF8E; /* Yellow */
   }
+.signup, .ft1, .ft2, .ft3{
+    width: 50%;
+  }
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   body {
     background-color: #B2D6FF; /* Blue */
+  }
+  .ft1, .ft2, .ft3 {
+      width: 33%;
+      order: 1;
+  }
+  .signup{
+    order: 2;
+  }
+  .content {
+    order: 3;
   }
 }
