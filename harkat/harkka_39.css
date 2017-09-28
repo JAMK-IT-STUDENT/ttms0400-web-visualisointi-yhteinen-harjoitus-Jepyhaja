@@ -145,7 +145,7 @@ footer a {
   text-decoration: none;
   color:#990000;
 }
-@media only screen and (min-width: 500px) and (max-width: 960px) {
+@media only screen and (min-width: 500px) {
   p {
     font-size: 1.3em;
   }
@@ -167,6 +167,9 @@ footer a {
     padding: 7% 2%;
     margin: 0;
     font-size: 1em;
+  }
+  nav a:hover {
+    background: #1a52ad;
   }
   #li-img {
     width: 20%;
@@ -229,11 +232,17 @@ footer a {
   }
 }
 @media only screen and (min-width: 960px){
+  .container{
+    max-width: 90%;
+    margin: 0 auto;
+  }
   body{
     background: #0c0c0c;
   }
   nav {
-    z-index: -2
+    z-index: -2;
+    background: #c0c0c0;
+    background: linear-gradient(-90deg, #0c0c0c,#c0c0c0, #0c0c0c)
   }
   nav ul {
     width: 100%;
@@ -244,9 +253,10 @@ footer a {
 
   }
   nav li {
+    margin: 0 0 0 20px;
     padding: 0;
-    width: 20%;
-    display: inline-block;
+    width: 10%;
+    display: inline-flex;
     align-self: flex-end;
   }
   #li-img {
@@ -267,15 +277,85 @@ footer a {
     background: #001a66;
     width: 100%;
     margin: 0 auto;
-    border-radius: 0;
+    border-radius: 50% 50% 0 0;
+    transition-duration: 0.3s;
+  }
+  nav a:hover {
+    border-radius: 50%;
+    transition-duration: 0.3s;
   }
   header {
     max-height: 700px;
     overflow: hidden;
   }
+  header h1 {
+    font-size: 5em;
+  }
   header img {
     max-width: 100%;
     height: auto;
-    margin: -5% auto 5% auto;
+    margin: -5% auto 0 auto;
+  }
+  .cont {
+    display: flex;
+    flex-flow: row;
+  }
+  main {
+    width: 70%;
+    margin-top: 0;
+    background:#827c7b;
+    border-top:  5px solid #4a0903;
+  }
+  aside {
+    border-top:  5px solid #4a0903;
+    width: 30%;
+  }
+  .cont-2 {
+    display: flex;
+    flex-flow: nowrap row-reverse;
+  }
+  article {
+    width: 25%;
+    flex-flow: column nowrap;
+  }
+  #a-2,#a-3 {
+    background: #76706f;
+  }
+  section {
+    flex-flow: row wrap;
+    justify-content: center;
+    border-bottom:  5px solid #4a0903;
+  }
+  section img {
+    order:2;
+  }
+  section h3 {
+    text-align: center;
+    width: 100%;
+    order: 1;
+    height: 50px;
+    padding-top: 10px;
+    border-bottom:  5px solid #4a0903;
+  }
+  section p {
+    order:3;
+    align-self: flex-end;
+    width:100%;
+    color: #4a0903;
+    font-weight: bold;
+    background: #76706f;
+  }
+  footer {
+    text-align: center;
+  }
+  footer li {
+    display: inline-flex;
+    padding:0;
+    margin: 1%;
+    width: 100px;
+  }
+  footer a {
+    width: 100%;
+    text-align: center;
   }
 }
