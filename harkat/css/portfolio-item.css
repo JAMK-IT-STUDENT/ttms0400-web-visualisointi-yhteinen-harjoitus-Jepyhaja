@@ -5,11 +5,16 @@
  */
 
 body {
-  padding-top: 54px;
+  padding-top: 84px;
+}
+
+.navbar-brand-img{
+  max-width: 200px;
+  max-height: 64px;
 }
 
 @media (min-width: 992px) {
   body {
-    padding-top: 56px;
+    padding-top: 84px;
   }
 }
