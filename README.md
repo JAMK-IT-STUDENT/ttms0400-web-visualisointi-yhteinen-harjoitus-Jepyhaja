@@ -1,7 +1,8 @@
 # ttms0400-web-visualisointi-yhteinen-harjoitus-Jepyhaja
 
 # Mockupit
-https://www.fluidui.com/editor/live/preview/cF9NemtrSG41UmlKS3FnWGdwbExyUGhjVHRNUkNVZWNJWg==
+-- https://www.fluidui.com/editor/live/preview/cF9NemtrSG41UmlKS3FnWGdwbExyUGhjVHRNUkNVZWNJWg== --
+*vanhentunut linkki*
 
 
 # Bootstrap
