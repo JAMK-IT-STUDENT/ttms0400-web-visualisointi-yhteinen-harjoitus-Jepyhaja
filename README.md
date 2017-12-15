@@ -1,5 +1,7 @@
 # ttms0400-web-visualisointi-yhteinen-harjoitus-Jepyhaja
 
+## https://jepyhaja.github.io/
+
 # Mockupit
 -- https://www.fluidui.com/editor/live/preview/cF9NemtrSG41UmlKS3FnWGdwbExyUGhjVHRNUkNVZWNJWg== --
 *vanhentunut linkki--mockupit löytyy nyt sivulta jepyhaja.com/portfolio.html*
