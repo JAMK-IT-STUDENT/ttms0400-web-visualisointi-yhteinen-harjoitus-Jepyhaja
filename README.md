@@ -2,7 +2,7 @@
 
 # Mockupit
 -- https://www.fluidui.com/editor/live/preview/cF9NemtrSG41UmlKS3FnWGdwbExyUGhjVHRNUkNVZWNJWg== --
-*vanhentunut linkki*
+*vanhentunut linkki--mockupit löytyy nyt sivulta jepyhaja.com/portfolio.html*
 
 
 # Bootstrap
